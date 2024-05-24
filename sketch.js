@@ -6,6 +6,18 @@ function setup() {
   angleMode(DEGREES);
   estator = loadImage('images/estator.png');
   rotor = loadImage('images/rotor.png');
+  
+  // Crear botones
+  let buttonContainer = createDiv().addClass('button-container');
+  buttonContainer.parent(document.body);
+
+  let leftButton = createButton('Girar Izquierda');
+  leftButton.mousePressed(() => angle -= angleStep);
+  leftButton.parent(buttonContainer);
+
+  let rightButton = createButton('Girar Derecha');
+  rightButton.mousePressed(() => angle += angleStep);
+  rightButton.parent(buttonContainer);
 }
 
 function draw() {
