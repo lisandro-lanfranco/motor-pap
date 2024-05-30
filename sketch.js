@@ -22,13 +22,20 @@ function setup() {
   let modo1Button = createButton('1');
   modo1Button.mousePressed(() => modo = 1);
   modo1Button.parent(buttonContainer);
-  
+
   let modo2Button = createButton('2');
-  modo2Button.mousePressed(() => modo = 2);
+  modo2Button.mousePressed(() => {
+    modo = 2;
+    angulo = 45;
+    angleStep = 90;
+  });
   modo2Button.parent(buttonContainer);
   
   let modo3Button = createButton('3');
-  modo3Button.mousePressed(() => modo = 3);
+  modo3Button.mousePressed(() => {
+    modo = 3;
+    angulo = 45;
+    angleStep = 90;);
   modo3Button.parent(buttonContainer);
   
   let modo4Button = createButton('4');
