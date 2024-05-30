@@ -44,7 +44,7 @@ The motor's stator is a fixed background image, while the rotor, which rotates i
 
 ## Demo
 
-You can see a live demo of the simulation [here]((https://lisandro-lanfranco.github.io/motor-pap/index.html)).
+You can see a live demo of the simulation [here](https://lisandro-lanfranco.github.io/stpper-motor/index.html "Stepper-motor").
 
 ## Contributing
 
