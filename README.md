@@ -3,6 +3,8 @@
 This project is a simulation of a stepper motor using p5.js. The simulation demonstrates basic stepper motor control, where users can interact with the motor using keyboard keys or on-screen buttons. 
 The motor's stator is a fixed background image, while the rotor, which rotates in the center, is another image with alpha transparency.
 
+![screen_cap](images/screencap.png)
+
 ## Features
 
 - **Interactive Control**: Rotate the motor by pressing the left and right arrow keys or by using on-screen buttons for touch devices.
