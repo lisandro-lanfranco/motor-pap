@@ -48,11 +48,7 @@ You can see a live demo of the simulation [here]((https://lisandro-lanfranco.git
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the existing style and structure of the project.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ---
 
-Acknowledgements
+## Acknowledgements
 This project was developed by Ing. Lisandro Lanfranco for the Laboratory of Animatronics and Dynamic Control - UNC.
