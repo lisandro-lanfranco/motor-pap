@@ -158,7 +158,7 @@ function dibujarCorriente() {
     ];
   }
   else if (modo === 4) {
-    //Micro Step No implementado aun
+    //Micro Step
     steps = [
         [0],        // Posición 1: bobinado A
         [0, 1],     // Posición 2: bobinado A y B
